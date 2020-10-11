@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "jsx-quotes": ["error", "prefer-single"],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "object-curly-spacing": ["error", "always"]
+  }
+}
