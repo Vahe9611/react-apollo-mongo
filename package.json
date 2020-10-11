@@ -6,6 +6,7 @@
     "start": "node ./bin/www",
     "build:client": "cd ./client && yarn && yarn build && cd ../",
     "start:production": "npm run build:client && npm start",
+    "set:environments": "cp ./client/.env.development.example ./client/.env.development.local & cp ./client/.env.production.example ./client/.env.production.local",
     "nodemon": "nodemon ./src/bin/www"
   },
   "dependencies": {

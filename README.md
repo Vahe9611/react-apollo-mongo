@@ -7,6 +7,10 @@ For Starting Project you can run following scripts
 
 ### `npm install`
 
+## Setup environment, and be sure that all configuration are correct
+
+### `npm run set:environments`
+
 ## Run application
 
 ### `npm run start:production`

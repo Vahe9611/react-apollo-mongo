@@ -17,7 +17,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
   };
 });
 
-const httpLink = createHttpLink({ uri: process.env.REACT_APP_API_URL, });
+const httpLink = createHttpLink({ uri: process.env.REACT_APP_API_URL || 'http://localhost:3000/graphql', });
 
 const link = ApolloLink.from([
   errorLink,
